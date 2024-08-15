@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="class work.css">
+</head>
+<body>
+    <h1 id="title">Bernice survey form</h1>
+    <p id="description">Thank you for taking time to help us improve this platform</p>
+    <main>
+        <form action="#" method="post" id="survey-form">
+            <fieldset>
+                <legend>participant information</legend>
+                <label for="full-name">enter your fullname:<input type="text" id="name-label" required></label>
+                <label for="email">enter your email:<input type="email" id="email-label" required></label>
+                <label for="password">enter your password:<input type="password" id="password-label" required  ></label>
+            </fieldset>
+            <fieldset>
+                <label id="describe">which option best describe your current role</label>
+
+                <label>select common role
+                    <select id="dropdown">
+                        <option value="" default>--select--</option>
+                        <option value="certificate">certificate</option>
+                        <option value="diploma">diploma</option>
+                    </select>
+                </label>
+            </fieldset>
+                        <fieldset>
+                            <label> will you select Bernice tech your friend </label>
+                            <label> definately<input type="radio" id="type-definatly" name="type-definately"></label>
+                            <label>maybe not<input type="radio" id="type-maybe not" name="type-maybe not"></label>
+                        </fieldset>
+                        <fieldset>
+                         <label>what did you want us to improve on</label> 
+                         <label>accurancy<input type="checkbox" id="type-accurancy" name="accurancy"></label>
+                         <label>speed<input type="checkbox" id="type-speed" name="speed"></label>  
+                        </fieldset>
+                        <fieldset>
+                        <section>
+                            <label>comment</label>
+                            <textarea cols="50" rows="13" placeholder="please write your comment here before you submit" required></textarea>
+                        </section>
+                        </fieldset>
+                        <input type="submit" value="SUBMIT" name="submit">
+
+
+
+
+                    
+               
+           
+
+
+
+
+            
+
+
+        </form>
+    </main>
+    
+</body>
+</html>
